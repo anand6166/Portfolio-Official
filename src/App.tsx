@@ -9,8 +9,10 @@ import ContactSection from "./components/ContactSection";
 
 
 const App: React.FC = () => {
+  console.log('App is rendered'); // Debugging line
   return (
     <div className="App">
+      <h1>Debugging: App is Rendering</h1>
       <Header />
       <div className="main-container">
         <NavBar />
