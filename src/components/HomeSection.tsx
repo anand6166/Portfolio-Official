@@ -5,7 +5,7 @@ const HomeSection: React.FC = () => {
     <section id="home" className="home section">
       <div className="container">
         <div className="row">
-          <div className="home-info padd-15">
+          <div className="home-info">
             <h3 className="hello">
               Hello, My name is <span className="animated-title">Achuthanand Madanapalli</span>, but you can call me
             </h3>
@@ -17,12 +17,14 @@ const HomeSection: React.FC = () => {
               Major: <strong>Computer Science</strong> <br />
               Minor: <strong>Business</strong>
             </p>
-            <a href="#contact" className="btn hire-me contact-button">Contact Me!</a>
-            <a href="#contact" className="btn hire-me resume-button">Resume</a>
           </div>
-          <div className="home-img padd-15 floating">
+          <div className="home-img floating">
             <img src="images/pfp.jpg" alt="Profile Picture" />
           </div>
+        </div>
+        <div className="btn-container">
+              <a href="#contact" className="btn hire-me contact-button">Contact Me!</a>
+              <a href="#contact" className="btn hire-me resume-button">Resume</a>
         </div>
       </div>
     </section>
